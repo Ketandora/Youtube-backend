@@ -2,6 +2,7 @@
 // import { DB_NAME } from './constants.js'
 import dns from "node:dns";
 import express from 'express'
+import app from './app.js'
 
 dns.setServers(["8.8.8.8", "8.8.4.4"]);
 
